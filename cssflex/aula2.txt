@@ -1,0 +1,112 @@
+Aula 2
+
+Material de apoio: Slide
+https://github.com/professorjosedeassis/html5css3
+
+CSS Cascading Style Sheets (Folha de estilo em cascada) 
+CSS e usado para formater o documento em HTML 
+
+CSS inline (dentro da tag html)
+CSS vinculado ao próprio documento html <style></style>
+CSS separando em uma folha de estilo (recomendado)
+
+Para criar a folha de estilo automaticamente no VScode, digitar: link:css e depois <ctrl><click> no link de nome style.css
+
+index.html----- style.css 
+
+CSS flexbox é uma tecnica mordena usada em layout responsivos para adaptar o conteúdo aos diversos tarmanhos de tela 
+ 
+ Passo 1: Criar uma div atribundo uma classe de nome container 
+
+obs: uma classe é um indentificador usada nos elementos html podendo ser utilizada (.)
+
+ atalho VScode: div.container
+-----------------------------------------------------------------------------------------------------------------------------
+CSS 
+
+/* coméntarios */
+
+Para criar um estilo no CSS, usamos o nome:
+<tag>
+.(classe)
+#id 
+
+o CSS trabalha com conceito de caixa (box-model)
+
+width
+________________________________
+margin
+    border
+        padding
+            <tag>    heigh
+        padding
+     border
+margin
+_________________________________
+
+
+width: 256px; largura
+    height: 256px; altura
+    --------------------------
+
+<tag> <img> (não fecha)
+propriedades src (caminhos até a imagem)
+propriedades alt (descrição da imagam) ***importante!***
+
+tag <a href=""></a>
+Usada para: 
+-link para outros urls
+-link interno 
+-downloas de documentos ou arquivo (Ex: pdf)
+
+
+obs:
+target="_blank" (abre o link em uma nova aba do navegador)
+<a href=""><img src="" alt""></a> (imagem clicável)
+
+Dica VScode 
+a (criar a teg a href)
+a*4 (criar a tag 4 vezes href)
+a>img (criar imagens clicaveis)
+a*5>img (criar 5 imagens clicaveis)
+
+------------------------------------------------------------------------
+Tipos de fontes (textos) recomendado usar um CDN (Content Delivery Network *Repositório de fontes)
+Recomendado: google fonts
+
+CSS Reset (padronizar o estilo nos diferentes tipos de  navegadores)
+box-sizing: border-box: (definir o tamanho absoluto do elemento sem levar em com bordas e espaçamento)
+Definição de variáveis para cores para facilitar o desenvolvimento e manutenção do site  
+--------------------------------------------------------------------------------------------------------
+
+tamanho de Fontes
+Tamanho padão: 16px = 1 rem
+REM significa porcentagem (relativo) 
+Relativo: site responsivo (adapta o tamanho da fonte a tela)
+1rem = 100% (tamanho padrão da fonte = 16px)
+1.25rem = 125% (ou seja, aumento de 25%)
+2rem= dobrar de tamanho  
+---------------------------------------------------------------------------------------
+
+Box Model:
+
+margin-top: superio 
+margin-right: direita
+margin-bottom: inferior
+margin-left: esquerda
+margin: superio direita inferio a esquerda
+margin: superior/inferio direita/esquerda
+-------------------------------------------------------------------------------------
+Text-decoration: none (remover o sublinhado do texto)
+
+------------------------------------------------------------------------------
+git clone (urls)
+git add . 
+git commit -m " escrever alguma coisa " 
+git push 
+--------------------------------------------------------------------------------
+para hospedar um site no github tem que ter index. html
+passo: 2 ir para settings 
+passos: clicar em pages 
+e clicar em deploy from a branch colcar main
+e save 
