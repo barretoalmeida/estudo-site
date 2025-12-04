@@ -1,0 +1,19 @@
+/* Permite ao  navegador decidir o light ou dark */
+:root {
+    color-scheme: Light dark;
+}
+
+/* Tema claro padrão */
+body {
+    font-family: sans-serif;
+    background: white;
+    color: black;
+}
+
+/* Modificar o tema detectar pelo o tema */
+@media (prefers-color-scheme: dark) {
+    body {
+        background-color: black;
+        color: white;
+    }
+}
