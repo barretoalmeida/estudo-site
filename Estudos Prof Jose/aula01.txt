@@ -1,0 +1,26 @@
+Dicas:
+1) Sempre identar (alinhar o código)
+    <ALT><Shif><f> teclas
+----------------------------------------------------
+
+2) Validar o código html
+https://validator.w3.org/
+--------------------------------------------------------
+
+3) Validar o código css
+https://jigsaw.w3.org/css-validator/
+obs: ele não consegue validar variaveis 
+----------------------------------------------------
+
+Breackpoints -> Pontos de quebra em layouts responsivo
+Media Queries (css)
+
+Iniciar sempre pelo smartphone no modo portrair
+(Neste caso não aplicar Media Queries)
+
+Explicação didatica sobre Media Queries
+
+"É como se fosse uma estrutura do tipo if() "se"
+if (condição)
+
+  //condição verdadeira

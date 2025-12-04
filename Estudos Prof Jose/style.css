@@ -1,0 +1,39 @@
+/* Smartphone portrait */
+body {
+    background-color: #ff0000;
+}
+
+/* Smartphone landscape */   /*quando o se girar o celular ele mudar */
+@media (min-width: 576px) {
+    body {
+    background-color: #fbff00;
+}
+}
+
+/* Tablet portrait */
+@media (min-width: 768px) {
+    body {
+    background-color: #00ff15;
+}
+}
+
+
+/* Tablet landscape */
+@media (min-width: 992px) {
+    body {
+    background-color: #46e8fd;
+}
+}
+
+/* Notebook / PC - HD*/
+@media (min-width: 1200px) {
+    body {
+    background-color: #1900ff;
+}
+}
+/* Notebook /PC /TV  -  FULL HD ou 4k*/
+@media (min-width: 1400px) {
+    body {
+    background-color: #8c00ff;
+}
+}
